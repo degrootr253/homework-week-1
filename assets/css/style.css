@@ -1,13 +1,16 @@
+/* Universal element structure for entire index*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Creates entire background of body as white*/
 body {
     background-color: #d9dcd6;
 }
 
+/* Creates the header background along with fonts and color of the text.*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* Creates inline-block to accomate large font-size for h3*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changes the color of the seo in Horiseon*/
 .seo {
     color: #d9dcd6;
 }
 
+/* Dimensions of the nav element*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ header nav {
     font-size: 20px;
 }
 
+/* Gets rid of the bullet points on nav*/
 header nav ul {
     list-style-type: none;
 }
 
+/* Position and format of list in nav element*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Keeps the text for list white*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Font size for any p element*/
 p {
     font-size: 16px;
 }
 
+/* Displays background picture on website*/
 .background-picture {
     height: 800px;
     width: 100%;
@@ -59,22 +70,47 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Structure and position of the main element*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Structure and styling of each section under main element*/
+.main-sections {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Font size and bottom spacing of h2*/
+.main-sections h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Keeps the img at a certain height*/
+.main-sections img {
+    max-height: 200px;
+}
+
+/* Displays image in section on the left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Displays image in section on the right*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Moves aside to the right and describes the font, background color and structure of element*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -86,40 +122,26 @@ aside {
     background-color: #2589bd;
 }
 
+/* Class for each section under aside.*/
 .benefits  {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* aligns h3 in aside to center and creates mmargin on bottom for room.*/
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Sets the dimensions of img in aside. Max-width to 150px to make sure image doesn't get too large.*/
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.main-sections {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.main-sections img {
-    max-height: 200px;
-}
-
-.main-sections h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Sets the structure of the footer element*/
 footer {
     padding: 30px;
     clear: both;
@@ -127,6 +149,7 @@ footer {
     text-align: center;
 }
 
+/* Sets the font size of the text in footer element*/
 footer h2 {
     font-size: 20px;
 }
